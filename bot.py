@@ -22,7 +22,6 @@ def welkome(message):
 
     bot.send_message(message.chat.id, 'Привет я Криби!! Я знаю всю успеваемость студентов ;)', reply_markup=markup)
 
-q=0
 s=0
 for g in marks:
     s=s+1
